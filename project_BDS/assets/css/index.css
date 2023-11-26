@@ -1,0 +1,53 @@
+
+header > div > .login, .post{
+  float: right;
+  height: 30px;
+  width: 0px;
+  border: 2px solid black;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 5;
+}
+:root {
+  --login-size: 90px;
+}
+header > div > .login, .post{
+height: var(--login-size);
+width: var(--login-size);
+}
+li {
+  list-style-type:none;
+}
+
+li {
+  display: inline;
+  line-height:50px;
+  padding: 30px;
+}
+
+ul {
+  height:50px;
+}
+
+/* CONTENT */
+.content > div {
+  padding: 20px 30px;
+}
+
+.btn4 {
+  margin-left: 500px;   
+}
+
+.btn4 > button {
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding: 10px;
+margin: 10px auto;
+  background: rgb(139, 169, 55);
+  color:white;
+}
+
+li {
+list-style: none;
+}
